@@ -1,0 +1,32 @@
+.w3-bar .w3-button i {
+    color: white;
+}
+
+h1, h6{color:#2e456e;}
+
+.w3-tag {background-color: #2e456e !important;}
+
+.combo-card{
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.1);
+      
+}
+
+.combo-description{
+    position: absolute;
+    top:500px;
+    left:0%;
+    width: 100%;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: white;
+    z-index: 10;
+    transition: top 0.3s ease-in-out;
+}
+
+.combo-card:hover .combo-description{
+    top: 265px;
+}
